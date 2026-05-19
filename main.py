@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "FastAPI is running"}
+    return {"message": "deployed on vercel"}
 
 
 @app.get("/health")
